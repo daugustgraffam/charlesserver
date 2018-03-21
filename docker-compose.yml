@@ -4,4 +4,18 @@ services:
    app:
     build: ./app
     ports:
-     - 8081:80
+     - 9001:80
+
+#   db:
+#    image: mysql
+#    restart: always
+#    environment:
+#      MYSQL_ROOT_PASSWORD: Weebly123!
+#    ports:
+#      - 3306:3306
+
+#   adminer:
+#    image: adminer
+#    restart: always
+#    ports:
+#      - 8080:8080
